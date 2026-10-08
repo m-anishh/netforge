@@ -1,0 +1,14 @@
+# Local state holds resource IDs and account details; use a remote backend instead
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.tfstate.lock.info
+crash.log
+
+# Local documentation and evidence (contains resource IDs, not pushed)
+docs/
+*.tfvars
+!example.tfvars
+
+# Local editor config
+.vscode/
