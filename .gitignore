@@ -12,3 +12,6 @@ docs/
 
 # Local editor config
 .vscode/
+
+# Provider lock file (hashes)
+.terraform.lock.hcl
